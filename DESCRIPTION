@@ -1,0 +1,20 @@
+Package: excelMapR
+Type: Package
+Title: Detect and map dependencies between Excel spreadsheets
+Version: 0.1.0
+Author: Angus Moore
+Maintainer:  <angusmoore9@gmail.com>
+Description: Scan dives for Excel files and map the spreadsheet links between
+  them. Easy auditing of broken and stale links.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  stringr,
+  dplyr,
+  rJava,
+  igraph,
+  networkD3
+Suggests:
+  testthat
+RoxygenNote: 6.1.1
