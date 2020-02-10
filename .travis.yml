@@ -10,6 +10,9 @@ branches:
     - /^release-.*/
     - /^v.*$/
 
+before_install:
+  - sudo apt-get -y install openjdk-8-jre
+
 before_cache: Rscript -e 'remotes::install_cran("pkgdown")'
 
 deploy:
