@@ -12,9 +12,9 @@ spreadsheets:
 > What spreadsheets depend on this spreadsheet?
 
 This is a pretty niche package. But the motivation comes from a previous job I had
-where our daily analysis relied on a huge sprawling network of interlinked
-spreadsheets (10s of thousands). Yes, this is obviously a terrible way to build
-analysis infrastructure.
+where daily analysis relied on a huge sprawling network of interlinked
+spreadsheets (in the 10s of thousands). This was exactly as problematic as you'd
+imagine.
 
 Improving one of those spreadsheets was hard, because you couldn't know if
 changing a column would break some other spreadsheet somewhere else. There is
