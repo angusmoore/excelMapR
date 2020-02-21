@@ -24,6 +24,8 @@ _no_ way to track reverse dependencies in Excel.
 spreadsheets to map the full dependency tree. Armed with that tree, you can find
 the reverse dependencies.
 
+(Of course, the correct answer to this problem is: don't use Excel.)
+
 ## Installation
 
 `excelMapR` is not available on CRAN, and probably never will be given how niche
